@@ -1,0 +1,93 @@
+html 코드 
+
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- css파일 포함 -->
+    <link rel='stylesheet' href='practice3.css'>
+</head>
+<body>
+
+
+    <div class="div1">
+        <div class="dd"><h1>로그인</h1> </div>
+
+            <div class="idbox">
+                <input class="input1"  type="text" placeholder="사용자 아이디" >
+            </div>
+
+            <br>
+
+            <div class="passwordbox">
+                <input class="input2" type="text" placeholder="비밀번호" >
+            </div>
+
+            <br>
+
+        <div class="dd1"><button class="button"> 로그인</button></div>
+    <br>
+        <div class="dd2">
+            <span class="s1">계정이 없으신가요?</span>
+            <span class="s2"> 회원가입</span>
+            <br><br>
+        </div>
+
+    </div>
+    
+
+    
+</body>
+</html>
+
+
+
+
+
+css 코드 
+
+
+
+
+
+.dd, .idbox, .passwordbox, .dd1 , .s1, .s2  {
+    text-align: center;
+    
+}
+.input1,.input2, .button{
+    border-radius: 10px;
+}
+
+.input1, .input2{
+    height: 40px;
+}
+
+/*
+.div1{
+    margin: 50px 350px;
+}
+*/
+    
+.dd{
+    font-weight: 300;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+}
+.s2{
+    color: blue;
+}
+
+.dd2{
+    text-align: center;
+}
+
+.div1{
+    border-radius: 5px ;
+    box-shadow: 0px 5px 5px rgba(255, 0, 0, 0.3);
+}

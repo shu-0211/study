@@ -1,0 +1,79 @@
+html 코드 
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- css파일 포함 -->
+    <link rel='stylesheet' href='csspractice5.css'>
+</head>
+<body>
+
+    
+    <div class="dd">
+
+        <img class="img1" src="파플.jpg" />
+        <h2> 프리미엄 파인애플 바구니 세트... </h2>
+        <br>
+
+        <div class="flexbox1">
+            <div class="box"> 25,000원 </div>
+        </div>
+
+        <br>
+        <div class="flexbox2">
+            <div class="box"> 판매자가 직접 키운 파인애플입니다. 집들이, 기념일, </div>
+            <div class="box"> 병문안, 생일 등 특별한 날에 상큼한 파인애플과 함</div>
+            <div class="box"> 께....</div>
+        </div>
+
+        <br>
+        <div class="flexbox3">
+            <div class="box1"> 리뷰 </div>
+            <div class="box2"> 130</div>
+            <div class="box3"> · 평점</div>
+            <div class="box4"> 4.9/5</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+css 코드 
+
+
+
+
+.dd, .img1{
+    border: solid black 1px;
+}
+
+.dd{
+    width: fit-content;
+}
+
+.flexbox1{
+    display: flex; /* 하위요소들 배치 방법 */
+    /* 만약에 하위요소들이 크기가 구역보다 커지만 하위요소 자동크기 조정 */
+    flex-wrap: nowrap;
+}
+
+.flexbox2{
+    display: flex; /* 하위요소들 배치 방법 */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.flexbox3{
+    display: flex;
+    justify-content: flex-start;  /* 하위 요소들 가로 정렬(왼쪽정렬/기본값 */
+}
+
+.box2, .box4{
+    color: darkorange;
+}

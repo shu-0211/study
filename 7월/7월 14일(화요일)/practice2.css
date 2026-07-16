@@ -1,0 +1,41 @@
+
+
+.span1{
+    color: orange;
+    font-size: large;
+}
+.div1{
+    font-size: medium ;
+}
+.span2{
+    color: orange;
+    font-size: large;
+}
+.div2{
+    font-size: medium ;
+}
+
+.ss1{
+    display: block;
+    color: chocolate;
+}
+
+.s1{
+    color: white;
+}
+.s2, .s3 , .s5, .s6{
+    display: block;
+    color: white;
+}
+.d1, .d2{
+    background-color: turquoise;
+}
+
+.ss2{
+    display: block;
+    color: white;
+}
+
+.s4{
+    color: chocolate;
+}
