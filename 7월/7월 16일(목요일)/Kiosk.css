@@ -1,0 +1,86 @@
+
+.div2, .grid{
+    margin-bottom: 20px;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.bo1, .bo3, .bo4, .bo5{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid coral; 
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bo2{
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    border: 3px solid white; 
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 5px;
+}
+
+.box2, .box3, .box4{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 5px;
+}
+
+.grid{
+   border: 1px solid black; 
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.div3{
+    border: 1px solid black; 
+    border-radius: 15px;
+}
+
+.box2 > button, 
+.box3 > button, 
+.box4 > button {
+    flex: 1;
+}
+
+.box5, .box6, .box7{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.box8{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: coral;
+
+    padding: 5px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
