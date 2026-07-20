@@ -45,7 +45,7 @@ let mail = prompt("이메일을 입력하세요");
 
 */
 
-
+/*
 // 6번
 
 let html = '   '
@@ -55,3 +55,36 @@ let grade = (score > 90) ? 'A' : (score >= 80) ? 'B' : 'C'
 html += `<h2> ${grade}</h2>`
 
 document.querySelector("body").innerHTML = html
+
+*/
+
+
+/*
+// 7번
+let age = prompt("나이를 입력하세요");
+( (age >= 20) && (age <= 29) ) ? console.log('이벤트 대상입니다.') : console.log('이벤트 대상이 아닙니다.')
+
+*/
+
+/*
+// 8번
+let likeCount = 3
+likeCount++
+console.log("좋아요 :["+likeCount+"]")
+*/
+
+
+/*
+// 9번 
+let todoList = ['장보기' , '과제하기'];
+let 할일 = prompt("할일을입력하시오");
+todoList.push(할일)
+console.log(todoList)
+*/
+
+/*
+// 10번
+let waitingList = ['김민준' , '이서연' , '박도윤' , '최지우'];
+console.log('마지막 대기자는 ['+waitingList[waitingList.length-1] + '] 입니다.')
+
+*/

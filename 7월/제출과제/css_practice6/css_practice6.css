@@ -1,0 +1,112 @@
+
+
+#header{
+    width: 1280px; /* 구역 가로 사이즈 */
+    margin: 0 auto; /* 구역 가로 가운데 정렬*/
+}
+
+#main{
+    width: 1280px;
+    margin:  0 auto;
+}
+#footer{
+    width: 100%;
+    margin:  0 auto;
+    margin-top: 20px;
+}
+/* 자주 사용되는 기본 css */
+*{
+    box-sizing: border-box; /* content+padding 포함 사이즈 정의 */
+    padding: 0px; margin: 0px;  /* 기본 여백 제거 */
+}
+
+a{
+    text-decoration: none;  /*  하이퍼링크 민줄 제거 */
+    color: black;
+}
+
+li{ list-style-type: none;} /* li 항목 글머리 제거 */
+
+/* [1] head 구역 좌우 로 나눠서 */
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items:  center;  /* flex 하위요소 세로로 가운데 정렬 */
+}
+
+.top-menu{
+    display: flex;
+    justify-content: end;   /*오른쪽 정렬*/
+    margin: 10px 0px;
+}
+.main-menu{
+    display: flex;
+    justify-content: end;
+    margin: 20px 0px;
+}
+.top-menu > li {margin-left: 10px;}
+.main-menu > li {
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#main-img > img{width: 100%;} /* 이미지 100% 사이즈 */
+
+/* [2 ] ===================== main ===================== */
+#main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.sidebar{
+    width:  220px; /* 1280px중에 220px 사용 */
+}
+.content{
+    width: 1030px;  /* 1280px 중에 1030px 사용 */ 
+}
+
+.sidebar > h1{
+    background-color: #808080;
+    color: #ffffff ;
+    padding: 10px;
+}
+
+.sidebar > ol > li {
+    padding:  10px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.content > h3{
+    font-size: 30px; margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.content > img {
+    display: block ; /* img마크업은 display:inline 이므로 block 변경 */
+    margin: 0  auto;
+}
+
+/* [3] -======================= footer ======================= */
+
+#footer{
+    padding: 20px;
+    background-color: #2c2a29 ;
+
+    
+}
+
+.right-footer > span {
+    color: white;
+    
+}
+
+.fff{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items:  center;  /* flex 하위요소 세로로 가운데 정렬 */
+}
+
