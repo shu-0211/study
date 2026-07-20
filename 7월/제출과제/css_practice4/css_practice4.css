@@ -1,0 +1,29 @@
+.dd, .img1{
+    border: solid black 1px;
+}
+
+.dd{
+    width: fit-content;
+}
+
+.flexbox1{
+    display: flex; /* 하위요소들 배치 방법 */
+    /* 만약에 하위요소들이 크기가 구역보다 커지만 하위요소 자동크기 조정 */
+    flex-wrap: nowrap;
+}
+
+.flexbox2{
+    display: flex; /* 하위요소들 배치 방법 */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.flexbox3{
+    display: flex;
+    justify-content: flex-start;  /* 하위 요소들 가로 정렬(왼쪽정렬/기본값 */
+}
+
+.box2, .box4{
+    color: darkorange;
+}

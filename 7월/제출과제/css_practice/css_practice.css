@@ -1,0 +1,57 @@
+h3{
+    font-family: "궁서", "궁서체", serif;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+.본문구역{
+    font-family: 'GMarketSans';
+    color: red;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    line-height: 160%;
+}
+
+.작성자1{
+    text-align: center;
+    text-decoration: underline overline line-through;
+    color: red;
+    text-shadow: 0px 0.5px 1px rgb(255, 1, 0);
+    word-spacing: 10px;
+    font-size: 10px;
+}
+
+.작성자2{
+    text-align: center;
+    text-decoration: underline overline line-through;
+    font-weight: 800;
+    text-shadow: 0px 0px 1px rgb(255, 1, 0);
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+
+.작성자3{
+    text-align: center;
+    text-decoration: underline overline line-through;
+    text-shadow: 0px 0.5px 1px rgb(255, 1, 0);
+    font-size: 10px;
+    word-spacing: 20px;
+    color: #ff0000;
+}
+
+.문구1{
+    color: blue;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+.문구2{
+    color: blue;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
