@@ -1,0 +1,45 @@
+
+
+*{
+    box-sizing: border-box; /* content+padding 포함 사이즈 정의 */
+    padding: 0px; margin: 0px;  /* 기본 여백 제거 */
+}
+
+a{
+    text-decoration: none;  /*  하이퍼링크 민줄 제거 */
+    color: black;
+}
+
+li{ list-style-type: none;} /* li 항목 글머리 제거 */
+
+#header{
+    width: 1280px;
+    margin: 0  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+#right-header,#main-menu{
+    
+    justify-content: end;
+}
+#right-header{
+    justify-content: end;
+}
+.top-menu{
+    display: flex;
+    justify-content: end;   /*오른쪽 정렬*/
+    margin: 10px 0px;
+    column-gap: 10px;
+}
+.main-menu{
+    display: flex;
+    justify-content: end;
+    margin: 20px 0px;
+    column-gap: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.top-menu > li {margin-left: 10px;}
+.top-menu > li {margin-left: 10px;}
