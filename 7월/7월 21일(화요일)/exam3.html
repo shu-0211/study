@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-     <style>
-    .dark-mode{
-      background-color: black;
-      color: white;
-    }
-  </style>
+     
 </head>
 <body>
 
     
-    <input id="usernameInput">
+    <h1>미니 가계부</h1>
+
+    <h2>등록 영역</h2>
+
+    날짜선택 : <input id="date" type="date">
+    <br>
+    항목입력 : <input id="text" type="text">
+    <br>
+    금액입력 : <input id="price" type="text">
+    <br>
+    <button onclick="등록함수()" > 등록버튼 </button>
+
+    <h2>목록 영역</h2>
+
+    
+    
+  <table class="table" border="3">
+    <tr>
+      <th> 날짜 </th>
+      <th> 항목 </th>
+      <th> 금액 </th>
+    </tr>
+    <tr>
+      <th> 2025-06-19 </th>
+      <th> 점심 식사 </th>
+      <th> 9000 </th>
+    </tr>
+    <tr>
+      <th> 2025-06-19 </th>
+      <th> 교통비 </th>
+      <th> 1500 </th>
+    </tr>
+    <table class="table1">
+
+    </table>
+
+    
+  </table>
+    
+    
+    
+
+
+    
 
 
     <script src="exam3.js"></script>
