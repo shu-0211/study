@@ -1,4 +1,4 @@
-let DB = [];  // 이걸지울까?
+let DB = [];  
 
 
 function 등록함수(){
@@ -25,7 +25,7 @@ function 등록함수(){
         
     }
     
-    document.querySelector('.table').innerHTML = html;
+    document.querySelector('.table1').innerHTML = html;
 }
 
 /*
