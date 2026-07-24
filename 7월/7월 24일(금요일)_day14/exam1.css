@@ -1,0 +1,49 @@
+.box{
+    width: 100px; height: 100px;
+    background-color: yellow;
+    border: 1px solid red;
+}
+
+.box2{
+
+    /* 요소 배치/위치 : static(기본값) 정적 , 위치 변경 불가능 */
+    position: static;
+    left: 50px;
+}
+
+.box3{
+    position: relative; /* relative  상대 위치(원래있던자리기준) */
+    top: 50px;  /* top 위에서부터 50px 아래로 이동, 음수면 위로 */
+    left: 50px; /* left 왼쪽에서부터 50px 오른쪼긍로 이동, 음수면 왼쪽 */
+}
+
+.box4{
+    position: absolute; /* 절대위치 ( 가장 가까운 position 상위요소 )*/
+    top: 50px; left: 50px;
+}
+
+.box5{
+    position: fixed; /* fixed 드바이스(화면) 위치 고정*/
+    bottom: 50px;
+    right: 50px;
+
+}
+.parent{
+    position: relative;
+}
+.box6{
+    position: absolute;
+    top: 1000px; left: 30px;
+}
+
+.header{
+    display: flex; background-color: beige;
+    position: sticky; /* 디바이스(화면)에서 벗어나면 위치 고정 */
+    top:  0px;  /* 위쪽 붙이기 */
+    z-index: 1;  /* 높으면 높을 수록 우선순위 높음 */
+
+}
+
+.header > ul{
+    display: flex;
+}

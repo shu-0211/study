@@ -1,0 +1,50 @@
+
+#head{
+    width: 800px;
+    height: 600px;
+    background-color: red;
+    display: flex;
+}
+.box{
+    width: 80px;
+    height: 60px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+
+.box1{
+    position: relative;
+    left: 330px;
+    top: 75px
+}
+
+.box2{
+    position: relative;
+    left: 50px;
+    top: 150px
+}
+.box3{
+    position: relative;
+    left: 350px;
+    top: 150px
+}
+
+.box4{
+    position: relative;
+    left: -110px;
+    top: 350px
+}
+
+.box5{
+    position: relative;
+    left: 180px;
+    top: 350px
+}
+.box6{
+    position: relative;
+    left: -100px;
+    top: 450px
+}
+
